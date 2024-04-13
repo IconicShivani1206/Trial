@@ -24,6 +24,8 @@ class TaskManager:
         if 1 <= task_index <= len(self.tasks):
             self.tasks[task_index - 1].completed = True
             print("Task marked as completed...")
+            print("I have done the first change...")
+
         else:
             print("Invalid task index.")
 
